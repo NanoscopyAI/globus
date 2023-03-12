@@ -1,5 +1,5 @@
 # Walkthrough
-Short description of aim, task to be completed
+This walkthrough helps you get started in 5-10 minutes using Globus to efficiently sync, copy, and download large datasets to and from clusters, as well as between any two computers, using a web browser only.
 
 
 ## Table of Contents
@@ -10,33 +10,42 @@ Short description of aim, task to be completed
 
 <a name="requirements"></a>
 ## Requirements
-Account on a system, system resources needed, data, ...
-
-### Input data
-
-### Expected results/output
+- A Digital Research Alliance account: https://ccdb.computecanada.ca/security/login
+- As a student you will need your PI's CCRI (identifier)
 
 
 <a name="installlation"></a>
 ## Installation
-E.g. install Python, R, git, packages, ...
-
+Install [Globus] https://docs.globus.org/globus-connect-personal/ on your machine, all OS'es are supported.
+Go through the steps of the wizard to configure.
 
 <a name="steps"></a>
 ## Step-by-step guide
-
 ### Step 1
-First, do ...
-```bash
-command
-```
-[optional]The output should look like
-```bash
-some result
-```
+Browse to [login page](https://globus.computecanada.ca/file-manager)
+Use your DRA account in the dropdown list.
 
+### Step 2
+In the File manager overview, you'll see something like this:
+
+![filemanager.png](filemanager.png)
+
+Select in the left hand panel on "Collection" an endpoint. 
+For example, if you want to transfer data from Cedar to your laptop, you'd select something like the below:
+
+![example.png](example.png)
+
+### Step 3
+Select data to be sent in the left hand side by marking with a checkbox.
+Once you're happy, click the "Start" button **in the right direction**. 
+
+That's it, you'll get a notification once done. 
 
 <a name="faq"></a>
 ## Troubleshooting
-### Contact info
-### Creating issue on project repository
+- Your endpoint (e.g. your laptop) needs to be online and have Globus running
+- You do not need to use a browser on the endpoint. For example, you can schedule a transfer between a system in Vancouver and London from a browser in Hawaii.
+
+Any further questions, please see the extensive documentation:
+- https://docs.globus.org/globus-connect-personal/
+- https://docs.alliancecan.ca/wiki/Globus
