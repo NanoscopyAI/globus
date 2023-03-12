@@ -44,15 +44,19 @@ Once you're happy, click the "Start" button **in the right direction**.
 
 
 Select data you want to transfer
+
 ![filemanager.png](transfer.png)
 
 
 You can change the options, e.g. overwrite, sync, fail on first error, and so on. 
 You can also schedule transfers
+
 ![filemanager.png](options.png)
 
 To view status of your transfer, click 'Activity' to see detailed progress for each transfer.
+
 ![filemanager.png](activity.png)
+
 Click on each transfer to get a live breakdown of total data to transfer, number of files and current speed.
 
 That's it, you'll get a notification once done. 
