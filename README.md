@@ -35,6 +35,8 @@ For example, if you want to transfer data from Cedar to your laptop, you'd selec
 
 ![example.png](example.png)
 
+Here I named my endpoint (laptop) **Fedora X1** when I installed Globus on my laptop.
+
 ### Step 3
 Select data to be sent in the left hand side by marking with a checkbox.
 Once you're happy, click the "Start" button **in the right direction**. 
